@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MyLineProgressView">
+        <attr name="linorcri">
+            <enum name="lines" value="1"/>
+            <enum name="circles" value="2"/>
+        </attr>
+        <attr name="color" format="color"/>
+        <attr name="max" format="integer"/>
+        <attr name="progress" format="integer"/>
+        <attr name="progressize" format="integer"/>
+        <attr name="strokewidth" format="integer"/>
+        <attr name="paddings" format="integer"/>
+    </declare-styleable>
+
+</resources>
